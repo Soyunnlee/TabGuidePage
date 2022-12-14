@@ -1,0 +1,8 @@
+
+.tabSectionBtn{
+    @apply text-gray-500 items-center flex m-auto py-9
+}
+
+.tabSectionIcon{
+    @apply h-4 w-4 inline stroke-gray-500 fill-white 
+}

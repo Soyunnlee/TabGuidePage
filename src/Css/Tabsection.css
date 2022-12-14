@@ -1,0 +1,126 @@
+/* Title */
+.tabTitWrap{
+    @apply 
+    /* Mobile */
+    flex justify-center py-7
+    /* Tablet , Pc */
+    md:py-10
+}
+
+.tabTit{
+    @apply 
+    /* Mobile */
+    text-2xl font-semibold
+    /* Tablet , Pc */
+    md:text-3xl
+}
+
+/* Tab Menu */
+.tabMenuList{
+    @apply 
+    /* Mobile */
+    flex flex-wrap justify-center m-auto space-x-4 w-[230px] leading-[25px]
+    /* Tablet , Pc */
+    md:space-x-0 md:w-[100%] md:leading-none
+}
+
+.tabMenuItm{
+    @apply 
+    /* Mobile */
+    focus:outline-none mb-4
+    /* Tablet , Pc */
+    md:mx-2 md:px-5 md:py-3 md:hover:bg-gray-100 md:mb-0;
+}
+
+/* TabSection */
+.tabWrap{
+    @apply 
+    /* Mobile */
+    m-auto w-[95%]
+    /* Tablet , Pc */
+    md:w-[90%] 
+}
+
+.tabPanel{
+    @apply 
+    /* Mobile */
+    mt-4
+    /* Tablet , Pc */
+    md:mt-10
+}
+
+/* SearchBar */
+.tabSearchForm{
+    @apply 
+    /* Mobile */
+    relative mt-5 w-4/5 mb-8 
+    /* Tablet , Pc */
+    md:w-2/5 md:mt-14 md:mb-10
+}
+
+.tabSearchBar{
+    @apply 
+    /* Mobile */
+    block p-1.5 
+    w-2/3
+    text-xs 
+    border
+    focus:outline-none 
+    md:p-2.5 
+    md:text-sm
+    md:w-full 
+}
+
+.tabSearchBtn{
+    @apply 
+    /* Mobile */
+    absolute p-1.5 right-[33.5%] top-[1px] text-sm font-medium text-white focus:outline-none
+    /* Tablet , Pc */
+    md:right-0 md:p-2.5 md:top-0 
+}
+
+.tabSearchBtn svg {
+    @apply 
+    /* Mobile */
+    w-4 h-4 stroke-gray-400 hover:stroke-gray-500 
+    /* Tablet , Pc */
+    md:w-5 md:h-5
+}
+
+/* Accordion */
+.accordionWrap{
+    @apply border border-b-0 break-words
+}
+
+.Question{
+    @apply
+    /* Mobile */
+    text-sm
+    /* Tablet , Pc */
+    md:text-base md:py-2 md:ml-4 
+}
+
+.answerText{
+    @apply 
+    /* Mobile */
+    text-[13px] font-thin pt-2 whitespace-pre-line 
+    /* Tablet , Pc */
+    md:font-light md:text-base md:pt-5 md:pb-2
+}
+
+/* Btn */
+.tabSectionBtn{
+    @apply 
+    /* Mobile */
+    text-gray-500 items-center flex m-auto py-5 mb-4 text-sm
+    /* Tablet , Pc */
+    md:py-9 md:mb-0 md:text-base
+}
+
+.tabSectionBtn svg{
+    @apply inline stroke-gray-500 fill-white 
+    h-4 w-4
+}
+
+
+

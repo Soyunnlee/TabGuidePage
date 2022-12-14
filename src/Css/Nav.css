@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navWrap{
+  @apply w-screen border-b border-gray-200
+}
+
+.navPosition{
+  @apply container flex py-1  px-[8%]
+}
+
+.Logo{
+  @apply flex self-center
+}
+.Logo img{
+  @apply  w-[40%] min-w-[80px]
+  /* Tablet , PC */
+  md:w-[35%] md:min-w-[95px]
+}
+
+.navList{
+  @apply flex p-4 space-x-14;
+}
+
+.navItm{
+  @apply  whitespace-nowrap text-gray-800 font-medium text-[16px]
+  /* Tablet , Pc */
+  md:text-[17px] ;
+}
+
